@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 
 # Paths
 # DO NOT CHANGE THESE LINES.
-ROOT_DIR = os.path.dirname(os.getcwd())
+ROOT_DIR = os.getcwd()
 MODEL_INPUTS_OUTPUTS = os.path.join(ROOT_DIR, 'model_inputs_outputs/')
 INPUT_DIR = os.path.join(MODEL_INPUTS_OUTPUTS, "inputs")
 INPUT_SCHEMA_DIR = os.path.join(INPUT_DIR, "schema")
